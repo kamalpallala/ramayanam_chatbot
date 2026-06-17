@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # OpenAI client
 client = Groq(
-    api_key=os.environ.get("GORQ_API_KEY"))
+    api_key=os.environ.get("GROQ_API_KEY"))
 
 # Read Ramayan data
 with open("data.txt", "r", encoding="utf-8") as file:
